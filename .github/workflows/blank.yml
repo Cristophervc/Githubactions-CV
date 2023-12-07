@@ -1,4 +1,4 @@
-name: Suma Automatizada
+name: Suma de dos numeros
 
 on: [push]
 
@@ -13,8 +13,8 @@ jobs:
     - name: Sumar números
       run: |
         # Definir números a sumar
-        num1=5
-        num2=7
+        num1=10
+        num2=5
 
         # Realizar la suma
         suma=$((num1 + num2))
